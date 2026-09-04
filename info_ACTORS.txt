@@ -1,0 +1,156 @@
+----------------------------------------------------------------------------------------
+actors.bin
+----------------------------------------------------------------------------------------
+List(first from left) definitions
+List(second from left) objects
+
+both lists have options (buttons):
+
+----------------------
+Import:
+----------------------
+import data.
+
+! mixed data is not supported !
+
+import definition data only to definition list
+and object data to object list.
+
+
+----------------------
+Export:
+----------------------
+Export selected.
+
+File is saved with object name.
+
+* if checkbox "Use one file for Export" is checked
+then all exported objects are saved into one file.
+(separate files for definitions/objects)
+
+*if checkbox "Connect Lists" is checked
+and entry with same name is found in other list
+then entrys from both lists are Exported.
+
+----------------------
+Duplicate: 
+----------------------
+Duplicate selected
+
+*if checkbox "Connect Lists" is checked
+and entry with same name is found in other list
+then entries from both lists are Duplicated.
+
+
+
+----------------------
+Delete: 
+----------------------
+Delete selected
+
+*if checkbox "Connect Lists" is checked
+and entry with same name is found in other list
+then entries from both lists are Delete.
+
+
+----------------------
+Get XYZ from Game
+----------------------
+Reads X/Y/Z values from game.
+(Player must be in mission to have position values)
+
+Source: Player / Camera
+Reads player position or in-game camera (view) position.
+
+User can paste values(from game X/Y/Z values) to object location values with button "<<" 
+
+Use Double-click on [Rotation] direction value text box to
+paste YAW value from game value text box into [Rotation] value.
+* Only usable with "Get XYZ from Game" option selected.
+
+
+----------------------
+Height offset:
+----------------------
+(-1000 -> 1000)
+
+Might be useful to set object height with offset from initial value.
+* Only usable with "Get XYZ from Game" option selected.
+
+
+
+----------------------
+Name:	object name
+----------------------
+Sector:	sector name
+----------------------
+Model:	model name
+----------------------
+
+
+
+--------------------------------------------
+Read Actors.bin:   
+
+Load  actors.bin (if file found at application directory)
+--------------------------------------------
+Backup:
+
+Creates backup copy of actors.bin.
+Copy is saved as actors_#.bin
+	First copy name: actors_1.bin
+	Second copy name: actors_2.bin
+All backup files are saved: *application directory\Backup_actors\
+
+--------------------------------------------
+Save Actors.bin:
+
+Save loaded file. (Overwrites actors.bin !)
+--------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
